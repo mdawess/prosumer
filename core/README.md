@@ -11,7 +11,7 @@ At a high level, there are 3 main parts of the platform:
 The smart contracts will be written in solidity and deployed on the ethereum mainnet. The smart contracts will be used to track the energy needs and production of prosumers and allow them to buy and sell energy to each other. The smart contracts will also be used to track the energy production of the DERs and allow the prosumers to buy and sell energy to the grid.
 
 ## `DER Engine`
-### Technologies: `rust`, `go`, `raspberry pi`
+### Technologies: `rust`, `raspberry pi`
 The DER engine will be an API used to communicate with the smart meters to monitor production and consumption of electricity through the DERs. This will initially begin with solar panels as they produce low voltage and are currently deployed in resedential areas within the Greater Toronto Area. This will allow users to understand the amount of electricity they are able to produce and consume. This will be written in rust or go and will be deployed on a raspberry pi (initially).
 
 ## `Prosumer`
