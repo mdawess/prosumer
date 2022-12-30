@@ -12,12 +12,14 @@ The smart contracts will be written in solidity and deployed on the ethereum mai
 
 ## `DER Engine`
 ### Technologies: `rust`, `raspberry pi`
-The DER engine will be an API used to communicate with the smart meters to monitor production and consumption of electricity through the DERs. This will initially begin with solar panels as they produce low voltage and are currently deployed in resedential areas within the Greater Toronto Area. This will allow users to understand the amount of electricity they are able to produce and consume. This will be written in rust or go and will be deployed on a raspberry pi (initially).
+The DER engine will be an API used to communicate with the smart meters to monitor production and consumption of electricity through the DERs. This will initially begin with solar panels as they produce low voltage and are currently deployed in resedential areas within the Greater Toronto Area. This will allow users to understand the amount of electricity they are able to produce and consume. This will be written in rust or go and will be deployed on a raspberry pi (initially). Ultimately, this will be a DER agnostic api which will allow users to integrate multiple green energy solutions into their consumption mix.
 
 ## `Prosumer`
-### Technologies: `NEXT`, `typescript`, `react`, `mapbox`
+### Technologies: `next`, `typescript`, `react`, `mapbox`
 Prosumer will be the bring the above components to end users  by providing a user interface for the prosumers to interact with the network. This will allow them to see the energy needs and production of their neighbours using mapbox and allow them to buy and sell energy to each other. This will also allow them to see the energy production of their DERs and allow them to buy and sell energy to the grid in real time. The application will be akin to TORONTOVERSE[^2] but will also have a marketplace and production/consumption dashboard.
 
 
 [^1]: https://consensys.net/blog/press-release/ethereum-blockchain-eliminates-99-99-of-its-carbon-footprint-overnight-after-a-successful-merge-according-to-new-report/
 [^2]: https://torontoverse.com/
+[^3]: https://www.openadr.org/openadr-and-der
+[^4]: https://www.openadr.org/assets/docs/understanding%20openadr%202%200%20webinar_11_10_11_sm.pdf

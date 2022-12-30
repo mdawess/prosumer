@@ -5,5 +5,8 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[build-dependencies]
+cmake = "0.1"
+
 [dependencies]
-rand = "0.8.5"
+paho-mqtt = "0.11.1"
