@@ -10,6 +10,7 @@ pub fn main() {
     });
 
     // Does not handle error
+    // Normally, the broker should be passed in rather than None
     client.connect(None);
     println!("Connected to the MQTT broker.");
 }
