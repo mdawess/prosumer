@@ -4,3 +4,4 @@
 # engine
 /core/engine/target
 /core/engine/Cargo.lock
+*.swp
